@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: roboto;
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright > * {
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 10px;
+}
+
+.headers {
+    background-color: #1F2937;
+    color: #e5e7eb;
+
+    display: flex;
+    align-content: center;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: ali;
+    font-size: 10px;
+
+}
+
+.header.logo {
+    display: flex;
+    justify-content: flex-end;
+
+}
