@@ -98,3 +98,40 @@ button {
 
 }
 
+
+.third {
+    background-color: #e5e7eb;
+    color: #1F2937;
+
+}
+
+.some {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+.images {
+    display: flex;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card > img {
+    width: 100px;
+    border-radius: 15%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+
+}
+
