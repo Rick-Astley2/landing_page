@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
@@ -92,17 +93,16 @@ body {
 button {
     color: #e5e7eb;
     background-color: #3882f6;
-    border-radius: 15%;
+    border-radius: 5px;
     box-shadow: none;
     padding: 1px 10px;
+    border: none;
 
 }
 
 
 .third {
     color: #1F2937;
-
-
 }
 
 .some {
@@ -147,9 +147,38 @@ button {
 }
 .quote {
     font-size: 36px;
-    font-weight: 900;
+    font-weight: 300;
 }
 .author {
     font-weight: bold;
 
+}
+
+.container {
+    background-color: #3882f6;
+    color:#e5e7eb;
+    margin: 100px; 
+    padding: 20px;
+
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lower {
+    background-color: #3882f6;
+    display: flex; 
+    gap: 40px;
+}
+
+.upper {
+    display: flex;
+
+}
+
+.container button {
+    border:2px #e5e7eb solid;
 }
